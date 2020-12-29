@@ -1,4 +1,5 @@
 ************************************About the Project*******************************
+
 The project aims to develop a Online banking system that is user-friendly and multifunctional.
 1. I have used two separate database files(.dat files) for storing the normal user's and joint account
    user's data. Two more database files also have been used for deleting the particular account.
@@ -29,7 +30,8 @@ Used socket programming – Server maintains the data base and service multiple 
 concurrently. Client program can connect to the server and access their specific account
 details.
 
- ********************************How to Run Project*********************************
+*****How to Run Project
+ 
  1. Compile the server.c file using gcc server.c -o server
 
  2. Compile the client.c file using gcc client.c -o client
