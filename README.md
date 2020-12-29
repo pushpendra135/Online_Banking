@@ -28,6 +28,7 @@ or deposit then write lock is used to protect the critical data section.
 Used socket programming – Server maintains the data base and service multiple clients
 concurrently. Client program can connect to the server and access their specific account
 details.
+
  ********************************How to Run Project*********************************
  1. Compile the server.c file using gcc server.c -o server
 
