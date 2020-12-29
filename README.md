@@ -1,6 +1,7 @@
 ************************************About the Project*******************************
 
 The project aims to develop a Online banking system that is user-friendly and multifunctional.
+
 1. I have used two separate database files(.dat files) for storing the normal user's and joint account
    user's data. Two more database files also have been used for deleting the particular account.
 
@@ -15,6 +16,7 @@ preventing the whole management system from unauthorized access.
 5. Once you login as Admin, you can be able to add, delete, modify, search for a
 specific account details.6.Once the customer connect to the server, you get the login and password prompt.
 After successful login, you get the menu for example:
+
 -Deposit
 -Withdraw
 -Balance Enquiry
@@ -25,12 +27,12 @@ After successful login, you get the menu for example:
 6.once you login as a joint account holder, proper file locking is implemented. If you
 want to view the account details then read lock is set else if you want to withdraw
 or deposit then write lock is used to protect the critical data section.
-7.
-Used socket programming – Server maintains the data base and service multiple clients
+
+7.Used socket programming – Server maintains the data base and service multiple clients
 concurrently. Client program can connect to the server and access their specific account
 details.
 
-*****How to Run Project
+*****How to Run Project****
  
  1. Compile the server.c file using gcc server.c -o server
 
